@@ -1,0 +1,187 @@
+[eth@ishm Sveltekit-Ecom]$ pnpm dev 
+> sveltekit-ecom@0.0.1 dev /home/eth/repos/svelte-apps/Sveltekit-Ecom
+> vite dev
+
+
+
+  VITE v4.4.9  ready in 985 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+work
+10:47:23 AM [vite-plugin-svelte] /home/eth/repos/svelte-apps/Sveltekit-Ecom/src/lib/components/forms/card.svelte:6:25 A11y: <img> element should have an alt attribute
+Error in error handler:
+Error: offset is longer than source length! offset 209 > length 130
+    at numberToPos (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:12098:15)
+    at formatError (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:44011:35)
+    at TransformContext.error (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:43989:19)
+    at Object.transform (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:44286:25)
+    at async loadAndTransform (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:54950:29)
+
+[postcss] Unexpected token, expected "," (8:33)
+Error in error handler:
+Error: offset is longer than source length! offset 209 > length 130
+    at numberToPos (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:12098:15)
+    at formatError (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:44011:35)
+    at TransformContext.error (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:43989:19)
+    at Object.transform (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:44286:25)
+    at async loadAndTransform (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:54950:29)
+    at async instantiateModule (file:///home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/vite@4.4.9_@types+node@20.5.9/node_modules/vite/dist/node/chunks/dep-df561101.js:55875:10)
+
+10:47:25 AM [vite] Error when evaluating SSR module /src/routes/+layout.svelte: failed to import "/src/app.postcss"
+|- SyntaxError: [postcss] Unexpected token, expected "," (8:33)
+    at unexpected (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:99:15)
+    at expect (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:86:5)
+    at parseObj (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:759:20)
+    at parseExprAtom (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:553:7)
+    at parseExprSubscripts (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:276:20)
+    at parseMaybeUnary (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:257:20)
+    at parseExprOps (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:185:20)
+    at parseMaybeConditional (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:157:20)
+    at baseParseMaybeAssign (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:142:20)
+    at tsParseMaybeAssignWithoutJSX (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/plugins/typescript.js:1580:45)
+
+Internal server error: [postcss] Unexpected token, expected "," (8:33)
+  Plugin: vite:css
+  File: /home/eth/repos/svelte-apps/Sveltekit-Ecom/src/app.postcss:undefined:undefined
+      at unexpected (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:99:15)
+      at expect (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:86:5)
+      at parseObj (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:759:20)
+      at parseExprAtom (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:553:7)
+      at parseExprSubscripts (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:276:20)
+      at parseMaybeUnary (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:257:20)
+      at parseExprOps (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:185:20)
+      at parseMaybeConditional (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:157:20)
+      at baseParseMaybeAssign (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:142:20)
+      at tsParseMaybeAssignWithoutJSX (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/plugins/typescript.js:1580:45)
+SyntaxError: [postcss] Unexpected token, expected "," (8:33)
+    at unexpected (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:99:15)
+    at expect (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:86:5)
+    at parseObj (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:759:20)
+    at parseExprAtom (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:553:7)
+    at parseExprSubscripts (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:276:20)
+    at parseMaybeUnary (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:257:20)
+    at parseExprOps (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:185:20)
+    at parseMaybeConditional (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:157:20)
+    at baseParseMaybeAssign (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:142:20)
+    at tsParseMaybeAssignWithoutJSX (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/plugins/typescript.js:1580:45) {
+  pos: 209,
+  loc: { column: undefined, line: undefined },
+  code: '@tailwind base;\n' +
+    '@tailwind utilities;\n' +
+    '@tailwind components;\n' +
+    '@tailwind variants;\n' +
+    'html,\n' +
+    'body{\n' +
+    '    @apply h-full overflow-hidden;\n' +
+    '  }\n',
+  plugin: 'vite:css',
+  id: '/home/eth/repos/svelte-apps/Sveltekit-Ecom/src/app.postcss',
+  pluginCode: '@tailwind base;\n' +
+    '@tailwind utilities;\n' +
+    '@tailwind components;\n' +
+    '@tailwind variants;\n' +
+    'html,\n' +
+    'body{\n' +
+    '    @apply h-full overflow-hidden;\n' +
+    '  }\n'
+}
+Internal server error: [postcss] Unexpected token, expected "," (8:33)
+  Plugin: vite:css
+  File: /home/eth/repos/svelte-apps/Sveltekit-Ecom/src/app.postcss:undefined:undefined
+      at unexpected (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:99:15)
+      at expect (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:86:5)
+      at parseObj (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:759:20)
+      at parseExprAtom (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:553:7)
+      at parseExprSubscripts (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:276:20)
+      at parseMaybeUnary (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:257:20)
+      at parseExprOps (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:185:20)
+      at parseMaybeConditional (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:157:20)
+      at baseParseMaybeAssign (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:142:20)
+      at tsParseMaybeAssignWithoutJSX (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/plugins/typescript.js:1580:45) (x2)
+SyntaxError: [postcss] Unexpected token, expected "," (8:33)
+    at unexpected (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:99:15)
+    at expect (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:86:5)
+    at parseObj (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:759:20)
+    at parseExprAtom (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:553:7)
+    at parseExprSubscripts (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:276:20)
+    at parseMaybeUnary (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:257:20)
+    at parseExprOps (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:185:20)
+    at parseMaybeConditional (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:157:20)
+    at baseParseMaybeAssign (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:142:20)
+    at tsParseMaybeAssignWithoutJSX (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/plugins/typescript.js:1580:45) {
+  pos: 209,
+  loc: { column: undefined, line: undefined },
+  code: '@tailwind base;\n' +
+    '@tailwind utilities;\n' +
+    '@tailwind components;\n' +
+    '@tailwind variants;\n' +
+    'html,\n' +
+    'body{\n' +
+    '    @apply h-full overflow-hidden;\n' +
+    '  }\n',
+  plugin: 'vite:css',
+  id: '/home/eth/repos/svelte-apps/Sveltekit-Ecom/src/app.postcss',
+  pluginCode: '@tailwind base;\n' +
+    '@tailwind utilities;\n' +
+    '@tailwind components;\n' +
+    '@tailwind variants;\n' +
+    'html,\n' +
+    'body{\n' +
+    '    @apply h-full overflow-hidden;\n' +
+    '  }\n'
+}
+Error: Not found: /favicon.ico
+    at resolve (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/@sveltejs+kit@1.24.1_svelte@4.2.0_vite@4.4.9/node_modules/@sveltejs/kit/src/runtime/server/respond.js:483:13)
+    at resolve (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/@sveltejs+kit@1.24.1_svelte@4.2.0_vite@4.4.9/node_modules/@sveltejs/kit/src/runtime/server/respond.js:285:5)
+    at #options.hooks.handle (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/@sveltejs+kit@1.24.1_svelte@4.2.0_vite@4.4.9/node_modules/@sveltejs/kit/src/runtime/server/index.js:56:56)
+    at Module.respond (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/@sveltejs+kit@1.24.1_svelte@4.2.0_vite@4.4.9/node_modules/@sveltejs/kit/src/runtime/server/respond.js:282:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Internal server error: [postcss] Unexpected token, expected "," (8:33)
+  Plugin: vite:css
+  File: /home/eth/repos/svelte-apps/Sveltekit-Ecom/src/app.postcss:undefined:undefined
+      at unexpected (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:99:15)
+      at expect (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:86:5)
+      at parseObj (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:759:20)
+      at parseExprAtom (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:553:7)
+      at parseExprSubscripts (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:276:20)
+      at parseMaybeUnary (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:257:20)
+      at parseExprOps (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:185:20)
+      at parseMaybeConditional (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:157:20)
+      at baseParseMaybeAssign (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:142:20)
+      at tsParseMaybeAssignWithoutJSX (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/plugins/typescript.js:1580:45) (x3)
+SyntaxError: [postcss] Unexpected token, expected "," (8:33)
+    at unexpected (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:99:15)
+    at expect (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/util.js:86:5)
+    at parseObj (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:759:20)
+    at parseExprAtom (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:553:7)
+    at parseExprSubscripts (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:276:20)
+    at parseMaybeUnary (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:257:20)
+    at parseExprOps (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:185:20)
+    at parseMaybeConditional (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:157:20)
+    at baseParseMaybeAssign (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/traverser/expression.js:142:20)
+    at tsParseMaybeAssignWithoutJSX (/home/eth/repos/svelte-apps/Sveltekit-Ecom/node_modules/.pnpm/sucrase@3.34.0/node_modules/sucrase/dist/parser/plugins/typescript.js:1580:45) {
+  pos: 209,
+  loc: { column: undefined, line: undefined },
+  code: '@tailwind base;\n' +
+    '@tailwind utilities;\n' +
+    '@tailwind components;\n' +
+    '@tailwind variants;\n' +
+    'html,\n' +
+    'body{\n' +
+    '    @apply h-full overflow-hidden;\n' +
+    '  }\n',
+  plugin: 'vite:css',
+  id: '/home/eth/repos/svelte-apps/Sveltekit-Ecom/src/app.postcss',
+  pluginCode: '@tailwind base;\n' +
+    '@tailwind utilities;\n' +
+    '@tailwind components;\n' +
+    '@tailwind variants;\n' +
+    'html,\n' +
+    'body{\n' +
+    '    @apply h-full overflow-hidden;\n' +
+    '  }\n'
+}
+[postcss] Unexpected token, expected "," (8:33)
+

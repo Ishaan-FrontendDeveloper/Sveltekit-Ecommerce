@@ -1,0 +1,45 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model key {
+  id              String  @id @unique
+  hashed_password String?
+  user_id         String
+  primary         Boolean
+  expires         BigInt?
+  user            user    @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@index([user_id])
+}
+
+model products {
+  desc  String
+  price BigInt?
+  img   String?
+  pname String? @default("")
+  type  String? @default("apparel")
+  uuid  String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+}
+
+model session {
+  id             String @id @unique
+  user_id        String
+  active_expires BigInt
+  idle_expires   BigInt
+  user           user   @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@index([user_id])
+}
+
+model user {
+  id       String    @id @unique
+  username String    @unique
+  key      key[]
+  session  session[]
+}
