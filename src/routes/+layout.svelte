@@ -43,8 +43,8 @@ import { LightSwitch } from '@skeletonlabs/skeleton';
 				</a>
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/Ishaan-FrontendDeveloper/"
-					target="_blank"
+					href="https://github.com/Ishaan-FrontendDeveloper/Sveltekit-Ecommerce"
+          target="_blank"
 					rel="noreferrer"
 				>
 					GitHub
