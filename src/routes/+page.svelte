@@ -11,15 +11,10 @@
 <h1 class="h1 p-4 text-center">Trending Products:</h1>
 <h4 class="h4 p-3 text-center">For <a href='/household'> household products </a> and  <a href="/apparel">apparels</a></h4>
 
-<div class="flex pt-3 flex-wrap  justify-center">
+<div class="flex pt-3 flex-wrap text-center   justify-center">
+   
 {#each data.feed as cards}
- 
 <Cards {cards}/>
-<button class="button p-3" on:click={()=>{
-  cart.addItem(cards)
-}}>Add to Cart </button>
-        
-      
 {/each}
 </div>
 </div>

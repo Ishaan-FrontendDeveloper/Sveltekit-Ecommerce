@@ -14,7 +14,8 @@ function createCart() {
       update((state) => {
         const index = state.items.findIndex((item) => item.id === product.uuid);
 
-        if (index !== -1 || state.items.includes(product.uuid)) {
+        if (index !== -1 || index===product.uuid) {
+          console.log(index,product.uuid)
           state.items[index].quantity++;
         } else {
           state.items.push({ ...product, quantity: 1 });

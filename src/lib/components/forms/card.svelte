@@ -1,5 +1,7 @@
 <script lang="ts">
     import type {PageData} from './$types';
+    import {cart} from '$lib/stores/cartStore.js'
+  
   export let cards :PageData;
   </script> 
 
@@ -9,7 +11,11 @@
     <p > {cards.desc}</p>
   </section>
 
-  <footer class="card-footer card-hover"><ul class="list"><li>Price : $ {cards.price}</li></ul></footer>
+  <footer class="card-footer card-hover"><ul class="list"><li>Price : $ {cards.price}</li>
+    <li>
+      <button on:click={()=>cart.addItem(cards)} >Add to Cart </button>
+      </li>
+  </ul></footer>
 
   
 </div>

@@ -1,23 +1,18 @@
 <script lang="ts">
   import {cart} from  '$lib/stores/cartStore.js';
-  console.log(cart.items)
 </script>
 
-<div>
+<div  class="flex flex-col text-center justify-center m-3 p-3">
   <h2 class="h2"> Shopping Cart </h2>
 
-  
+    <ul class="list flex flex-col  justify-center">
      {#each $cart.items as item}
-       <p>
+       <li class="flex flex-col p-4">
          <img class="w-1/3" src={item.img} alt={item.pname}/>
-
-
-         <span>{item.pname} - {item.quantity} x ${item.price}</span>
+         <span>{item.pname} -  ${item.price}</span>
          <button on:click={()=> cart.removeItem(item.id)}>Remove</button>
-      <p>
+   </li> 
     {/each}
-  
+   </ul>
     <p> Total : ${$cart.total}</p>
-    <button on:click={$cart.clear}>Clear Cart</button>
 </div>
-

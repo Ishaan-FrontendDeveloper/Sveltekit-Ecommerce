@@ -6,13 +6,11 @@
 </script>
 
 
-<div>
+<div class="flex flex-col p-4 m-4 text-center justify-center">
   <h1 class="h1"> Apparels </h1>
-  <main>
-     <div>
+     <div class="flex flex-wrap shrink p-4 justify-center">
       {#each data.apparel as cards}
         <Cards {cards}/>
       {/each}
     </div>
-</main>
     </div>
