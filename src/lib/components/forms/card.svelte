@@ -1,6 +1,5 @@
 <script lang="ts">
     import type {PageData} from './$types';
-
   export let cards :PageData;
   </script> 
 
@@ -10,7 +9,7 @@
     <p > {cards.desc}</p>
   </section>
 
-  <footer class="card-footer card-hover"><ul class="list"><li>Price : $ {cards.price}</li><li><button class="rounded hover"  >Add to Cart</button></li></ul></footer>
+  <footer class="card-footer card-hover"><ul class="list"><li>Price : $ {cards.price}</li></ul></footer>
 
   
 </div>
